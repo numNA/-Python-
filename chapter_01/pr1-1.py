@@ -11,3 +11,6 @@ if b > maximum: maximum = b
 if c > maximum: maximum = c
 
 print("최댓값은 {maximum}입니다.".format(maximum = maximum))
+
+#문제점: 비교하려는 값의 개수만큼 입력해줘야함, n-1번 비교해야함 O(n)
+#해결방법: get_int 함수 정의 후 비교하려는 개수만큼 반복, 더 좋은 알고리즘 
